@@ -1,0 +1,17 @@
+﻿etapa,modelo,metrica,valor
+validacion_cruzada_5fold,gradient_boosting,auc_cv_media,0.9911
+validacion_cruzada_5fold,random_forest,auc_cv_media,0.9886
+validacion_cruzada_5fold,regresion_logistica,auc_cv_media,0.9805
+validacion_cruzada_5fold,gradient_boosting,auc_cv_desv,0.002
+validacion_cruzada_5fold,random_forest,auc_cv_desv,0.0019
+validacion_cruzada_5fold,regresion_logistica,auc_cv_desv,0.003
+test_holdout_20pct,gradient_boosting,auc_roc,0.9926
+test_holdout_20pct,gradient_boosting,precision,0.9872
+test_holdout_20pct,gradient_boosting,recall,1.0
+test_holdout_20pct,gradient_boosting,f1,0.9935
+test_holdout_20pct,gradient_boosting,accuracy,0.9897
+test_holdout_20pct,gradient_boosting,brier,0.0085
+test_holdout_20pct,gradient_boosting,verdaderos_negativos,838.0
+test_holdout_20pct,gradient_boosting,falsos_positivos,45.0
+test_holdout_20pct,gradient_boosting,falsos_negativos,0.0
+test_holdout_20pct,gradient_boosting,verdaderos_positivos,3465.0
