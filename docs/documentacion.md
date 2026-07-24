@@ -719,5 +719,6 @@ python src/main_actividad3.py   # dataset final para Power BI
 
 Con la semilla global `SEMILLA = 42`, todas las operaciones aleatorias (partición train/test,
 validación cruzada, inicialización de modelos) producen exactamente los mismos resultados en
-cada ejecución. Los archivos generados automáticamente por los scripts no están en el
-repositorio; se crean al ejecutar cada actividad.
+cada ejecución. Los archivos de salida generados por los scripts (sábana analítica, predicciones,
+modelo serializado, métricas y gráficas) están incluidos en el repositorio como evidencia de
+los resultados obtenidos; al ejecutar los scripts se regeneran con valores idénticos.
